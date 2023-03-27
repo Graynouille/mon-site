@@ -1,7 +1,10 @@
 html, body{
     margin: 0;
     padding: 0;
-    background-color: #303036; 
+}
+
+.navbar a{
+    font-size: 2em;
 }
 
 #carouselExampleDark h5{
@@ -11,7 +14,8 @@ html, body{
     -webkit-text-stroke-color: #303036;
 }
 
-.card {
-    display: flex; 
-    flex-direction: row;
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
 }
