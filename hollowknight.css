@@ -9,14 +9,6 @@ h1{
     justify-content: center;
 }
 
-.icon{
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-    height: 50px;
-    width: 50pxs;
-}
-
 .homepage{
     background-image: url(img/hkbg.jpg);
     background-attachment: fixed;
@@ -34,24 +26,104 @@ h1{
 
 .gameplay{
     padding: 100px; 
+    display: flex;
+    justify-content: space-around;
 }
 
 .revealtrailer{
     display: flex;
-    justify-content:center;
+    align-items: center;
 }
+
+.box{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+}
+
+.tags{
+    padding-right: 667px;
+}
+
+.text-start{
+    padding-left: 84px;
+}
+
+.tags{
+    display: flex;
+    justify-content: center;
+    margin-left: -193px;
+    padding-bottom: 50px;
+}
+
 
 .pictures{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    width: 1355px;
-    height: 195px;
+    height: 26vh;
 }
 
 .img-thumbnail{
     border-radius: 1.1500000000000004rem;
-
 }
 
+.img-thumbnail:hover{
+    border: solid;
+    border-color:aliceblue
+}
+
+.princess>h3{
+    display: flex; 
+    justify-content: center;
+}
+
+.princess>h4{
+    display: flex;
+    justify-content: center;
+}
+
+.features>h4{
+    display: flex;
+    justify-content: center;
+}
+
+.princess>p{
+    display: flex;
+    justify-content: center;
+}
+
+.features>p{
+    display: flex;
+    justify-content: center;
+}
+
+.princess{
+    padding: 50px;
+}
+
+.features{
+    padding: 50px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+.img-fluids{
+    padding: 5px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
 
