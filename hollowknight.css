@@ -3,10 +3,13 @@ html, body{
     padding: 0;
 }
 
-h1{
-    padding: 20px;
+.title{
     display: flex;
     justify-content: center;
+}
+
+.container-fluid>a{
+    text-decoration: none;
 }
 
 .homepage{
@@ -17,6 +20,7 @@ h1{
     width: 100wh;
     height: 100vh;
 }
+
 
 .comingsoon{
     display: flex;
@@ -41,19 +45,13 @@ h1{
     align-items: flex-end;
 }
 
-.tags{
-    padding-right: 667px;
-}
-
-.text-start{
+.paragraph{
     padding-left: 84px;
 }
 
 .tags{
     display: flex;
     justify-content: center;
-    margin-left: -193px;
-    padding-bottom: 50px;
 }
 
 
@@ -71,6 +69,12 @@ h1{
 .img-thumbnail:hover{
     border: solid;
     border-color:aliceblue
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
 }
 
 .princess>h3{
@@ -127,3 +131,8 @@ h1{
     padding-top: 50px;
 }
 
+.numbers{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
