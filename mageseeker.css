@@ -1,0 +1,172 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid>a{
+    text-decoration: none;
+}
+
+.homepage{
+    background-image: url(img/sylasbg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100wh;
+    height: 100vh;
+}
+
+
+.comingsoon{
+    display: flex;
+    justify-content: center;
+    padding: 300px;
+}
+
+.gameplay{
+    padding: 100px; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.revealtrailer{
+    display: flex;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+}
+
+.paragraph{
+    padding-left: 84px;
+}
+
+.tags{
+    display: flex;
+    justify-content: center;
+}
+
+
+.pictures{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 26vh;
+}
+
+.img-thumbnail{
+    border-radius: 1.1500000000000004rem;
+}
+
+.img-thumbnail:hover{
+    border: solid;
+    border-color:aliceblue
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+.princess>h3{
+    display: flex; 
+    justify-content: center;
+}
+
+.princess>h4{
+    display: flex;
+    justify-content: center;
+}
+
+.features>h4{
+    display: flex;
+    justify-content: center;
+}
+
+.princess>p{
+    display: flex;
+    justify-content: center;
+}
+
+.features>p{
+    display: flex;
+    justify-content: center;
+}
+
+.princess{
+    padding: 50px;
+}
+
+.features{
+    padding: 50px;
+}
+
+.griffin{
+    display: flex;
+    justify-content: center;
+}
+
+.collector{
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column; 
+    padding-left: 84px;
+}
+
+.pitch{
+    background-image: url(img/lol7.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100wh;
+    height: 100vh;
+}
+
+#quote{
+    display: flex;
+    align-items: center;
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+.img-fluids{
+    padding: 5px;
+}
+
+.characters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top:hover{
+    transform: scale(0.9);
+    transition: 1s;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}

@@ -5,41 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La bibliothèque indé</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://bootswatch.com/5/vapor/bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <nav class="navbar bg-dark" data-bs-theme="dark" >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Home</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#cards">Games</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  More details...
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="hollowknight.html">Hollow Knight : Silksong</a></li>
-                  <li><a class="dropdown-item" href="haveanicedeath.html">Have a Nice Death</a></li>
-                  <li><a class="dropdown-item" href="#">The Mageseeker: A League of Legends Story™</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg bg-body-danger">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Indie Library</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#carouselExampleDark">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#category">Upcoming & Recent Games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#selection">Our Selection</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#carouselExampleIndicators">More Games</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
       <div id="carouselExampleDark" class="carousel carousel-dark slide">
         <div class="carousel-indicators">
@@ -49,21 +45,21 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src="img/hk.jpg" class="d-block w-100" alt="...">
+            <img src="img/hk.jpg" class="d-block w-100" alt="silksong">
             <div class="carousel-caption d-none d-md-block">
               <h5>Hollow Knight : Silksong !</h5>
               <p>Discover a vast, haunted kingdom in Hollow Knight: Silksong!</p>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src="img/death.jpg" class="d-block w-100" alt="...">
+            <img src="img/death.jpg" class="d-block w-100" alt="have a nice death">
             <div class="carousel-caption d-none d-md-block">
               <h5>Have a nice death !</h5>
               <p>Have a Nice Death is a 2D action roguelike in which you play as Death on the verge of burnout.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="img/mageseeker.jpg" class="d-block w-100" alt="...">
+            <img src="img/mageseeker.jpg" class="d-block w-100" alt="mageseeker">
             <div class="carousel-caption d-none d-md-block">
               <h5>The Mageseeker : a League of Legends Story !</h5>
               <p>The Mageseeker is an action RPG set in the League of Legends universe. Play as Sylas, a mage who has just been released from years of captivity.</p>
@@ -79,9 +75,12 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+<div class="category" id="category">
+ <h2> Upcoming & Recent Games</h2>
+</div>
     <div class="cards" id="cards">
       <div class="card" style="width: 18rem;">
-        <img src="img/hk.jpg" class="card-img-top" alt="...">
+        <img src="img/hk.jpg" class="card-img-top" alt="silksong">
         <div class="card-body">
           <h5 class="card-title">Hollow Knight : Silksong </h5>
           <p class="card-text">Discover a vast, haunted kingdom in Hollow Knight: Silksong! The sequel to the award winning action-adventure. Explore, fight and survive as you ascend to the peak of a land ruled by silk and song.</p>
@@ -98,7 +97,7 @@
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="img/death.jpg" class="card-img-top" alt="...">
+        <img src="img/death.jpg" class="card-img-top" alt="haveanicedeath">
         <div class="card-body">
           <h5 class="card-title">Have a Nice Death</h5>
           <p class="card-text">Have a Nice Death is a 2D action roguelike in which you play as Death on the verge of burnout, having to set his employees straight, before the balance of souls is compromised. You'll have to grab your scythe and show who's in charge to the recalcitrant staff.</p>
@@ -116,7 +115,7 @@
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="img/mageseeker.jpg" class="card-img-top" alt="...">
+        <img src="img/mageseeker.jpg" class="card-img-top" alt="mageseeker">
         <div class="card-body">
           <h5 class="card-title">The Mageseeker: A League of Legends Story™</h5>
           <p class="card-text">Developed by Digital Sun, the creators of Moonlighter, The Mageseeker is an action RPG set in the League of Legends universe. Play as Sylas, a mage who has just been released from years of captivity. Free the kingdom of Demacia from the tyranny of the Mageeekers.</p>
@@ -128,11 +127,139 @@
         </ul>
         <div class="card-body">
           <a href="https://store.steampowered.com/app/1457080/The_Mageseeker_A_League_of_Legends_Story/" class="card-link">Wishlist on steam</a>
-          <a href="#" class="card-link">More Details...</a>
+          <a href="mageseeker.html" class="card-link">More Details...</a>
         </div>
       </div>
     </div>
 
+<div class="selection" id="selection">
+  <h2>Our Selection</h2>
+</div>
+
+<div class="selectiongames">
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="img/lamb2.png" class="img-fluid rounded-start" alt="cult of the lamb">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Cult of the Lamb</h5>
+          <p class="card-text">Start your own cult in a land of false prophets, travel through amazing and mysterious regions to grow a community of faithful followers in the woods and spread the word to become the only true cult.</p>
+          <a href="cultofthelamb.html" class="btn btn-primary">More Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="img/h1.png" class="img-fluid rounded-start" alt="hollow Knight">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Hollow Knight</h5>
+          <p class="card-text">Choose your fate in Hollow Knight ! An epic, action-packed adventure that plunges you into a vast, ruined realm populated by insects and heroes. Set in a classic hand-drawn 2D world.</p>
+          <a href="#" class="btn btn-primary">More Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="img/ori.png" class="img-fluid rounded-start" alt="Ori">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Ori and the blind Forest</h5>
+          <p class="card-text">"Ori and the Blind Forest" tells the story of a young orphaned creature with a heroic destiny, through a platform and action game with breathtaking graphics, developed for PC by Moon Studios.</p>
+          <a href="#" class="btn btn-primary">More Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="more" id="Games">
+  <h2>More Games...</h2>
+</div>
+
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/hades.jpg" class="d-block w-100" alt="hades">
+    </div>
+    <div class="carousel-item">
+      <img src="img/temtem.jpg" class="d-block w-100" alt="tem tem">
+    </div>
+    <div class="carousel-item">
+      <img src="img/moonlighter.jpg" class="d-block w-100" alt="moonlighter">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+  <div class="news">
+  <h2>Follow our newsletter to not miss any news !</h2>
+  </div>
+<form class="form">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<footer>
+  <div class="socials">
+    <h3>
+      Socials
+    </h3>
+    <ul class="reseaux">
+      <li>
+        <a href="" rel="nofollow" target="_blank">
+          <i class="fa-brands fa-square-twitter"></i>
+          @IndieLibrary
+        </a>
+      </li>
+      <li>
+        <a href="" rel="nofollow" target="_blank">
+          <i class="fa-brands fa-square-instagram"></i>
+          @LibraryIndie
+        </a>
+        <li>
+          <a href="" rel="nofollow" target="_blank">
+            <i class="fa-brands fa-square-facebook white"></i>
+            @TheIndieLibrary
+          </a>
+        </li>
+      </ul>
+    </div>
+
+</footer>
+
+
+</div>
+     
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
 </html>
