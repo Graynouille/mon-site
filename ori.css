@@ -1,0 +1,134 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid>a{
+    text-decoration: none;
+}
+
+.homepage{
+    background-image: url(img/oriwp.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100wh;
+    height: 100vh;
+}
+
+
+.comingsoon{
+    display: flex;
+    justify-content: center;
+    padding: 300px;
+}
+
+.gameplay{
+    padding: 100px; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.revealtrailer{
+    display: flex;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+}
+
+.paragraph{
+    padding-left: 84px;
+}
+
+.tags{
+    display: flex;
+    justify-content: center;
+}
+
+
+.pictures{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 26vh;
+}
+
+.img-thumbnail{
+    border-radius: 1.1500000000000004rem;
+}
+
+.img-thumbnail:hover{
+    border: solid;
+    border-color:aliceblue
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+.princess>h3{
+    display: flex; 
+    justify-content: center;
+}
+
+.princess>h4{
+    display: flex;
+    justify-content: center;
+}
+
+.features>h4{
+    display: flex;
+    justify-content: center;
+}
+
+.princess>p{
+    display: flex;
+    justify-content: center;
+}
+
+.features>p{
+    display: flex;
+    justify-content: center;
+}
+
+.princess{
+    padding: 50px;
+}
+
+.features{
+    padding: 50px;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+ul.reseaux{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    margin-top: 20px;
+}

@@ -130,11 +130,6 @@ html, body{
     align-items: center;
     padding: 50px;
 }
-
-.img-fluids{
-    padding: 5px;
-}
-
 .cards{
     display: flex;
     justify-content: center;
